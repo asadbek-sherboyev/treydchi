@@ -60,23 +60,6 @@ installed. A successful build must still be tested on a clean Windows machine.
 The Inno Setup script (`installer.iss`) can then package `dist\\Treydchi.exe`.
 The installer script and build have not been verified in this environment.
 
-## Local data and security
-
-The app stores local state in `dokon.db` and `sozlamalar.json` (plus a backup).
-These files may contain shop data or Telegram configuration and are intentionally
-excluded by `.gitignore`. Do not commit them.
-
-- Use a separate test database for experiments.
-- Never publish Telegram bot tokens, private user data, or customer information.
-- If a Telegram token has ever been committed publicly, revoke it through BotFather.
-- Be careful when enabling any public tunnel or Mini App feature.
-
-## Testing
-
-No automated test suite was included in the supplied ZIP. Before relying on the
-application, manually test product creation, sales totals, persistence, backup
-and restore, and any Telegram integration using test data and a test bot.
-
 ## Author
 
 Asadbek Sherboyev  
