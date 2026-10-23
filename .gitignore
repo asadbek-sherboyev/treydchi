@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Personal application state (may contain Telegram credentials and private data)
+sozlamalar.json
+sozlamalar.json.bak
+dokon.db
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.log
+logs/
+
+# Editors / operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+Output/
+*.spec
+*.egg-info/
