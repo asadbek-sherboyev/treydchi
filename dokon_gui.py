@@ -1,23 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-dokon_gui.py — Elmans materials Do'kon Daftari — premium PySide6 interfeys.
 
-Texnologiyalar:
-  * PySide6 — Qt uchun rasmiy Python bog'lovchisi.
-  * Qt Style Sheets (QSS) — MAIN_QSS + har bir qfluentwidgets komponentining
-    o'z ichki uslubi.
-  * QTableView — qfluentwidgets.TableView (haqiqiy QTableView avlodi) +
-    QAbstractTableModel asosidagi modellar.
-  * QStackedWidget — sahifalar orasida almashish uchun (yuqoridagi "pill"
-    navigatsiya tugmalari bilan boshqariladi — asl tkinter versiyasidagi
-    yuqori navigatsiya panelini takrorlaydi).
-  * qfluentwidgets — tugmalar, kartalar, dialog oynalar, PillPushButton
-    navigatsiya tugmalari.
-  * Dark/Light tema — qfluentwidgets.setTheme(Theme.DARK/LIGHT).
-
-Biznes-mantiq butunlay dokon_backend.py modulida.
-"""
 
 import sys
 import os
