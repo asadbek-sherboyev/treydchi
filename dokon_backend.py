@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-dokon_backend.py -- Elmans materials Do'kon Daftari uchun backend qatlami.
-
-Bu modul HECH QANDAY GUI kutubxonasiga (tkinter, PySide6 va h.k.) bog'liq
-emas -- faqat ma'lumotlar bazasi (sqlite3), chek matni yaratish, shtrix kod
-yaratish/chop etish, printerlar bilan ishlash va Telegram bot integratsiyasi
-kabi "sof" biznes-mantiqni o'z ichiga oladi. Interfeys (GUI) qatlami
-(dokon_gui.py, PySide6 + qfluentwidgets asosida) shu moduldagi funksiyalarni
-import qilib ishlatadi.
-"""
 
 import math
 import re
