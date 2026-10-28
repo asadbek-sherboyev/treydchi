@@ -6,10 +6,3 @@ certifi
 openpyxl>=3.1
 pywin32; sys_platform == "win32"
 
-# Mahsulot rasmidan fonni avtomatik olib tashlash (kvadrat + oq fon
-# tugmasi) uchun. DIQQAT: bu kutubxona ~150-200 MB qo'shimcha hajm
-# talab qiladi va birinchi ishlatilganda modelni internetdan yuklab
-# oladi (keyin lokal saqlanadi). Agar bu funksiya kerak bo'lmasa, shu
-# qatorni o'chirib tashlab, requirements.txt'ni yengillashtirish mumkin
-# -- bunday holda dastur oddiy (fonsiz) kvadrat kesishga o'tadi.
-#rembg[cpu]>=2.0.50
